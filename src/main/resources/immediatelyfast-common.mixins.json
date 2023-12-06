@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.raphimc.immediatelyfast.injection.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "net.raphimc.immediatelyfast.injection.ImmediatelyFastMixinPlugin",
+  "client": [
+    "core.MixinBufferBuilder",
+    "core.MixinDebugHud",
+    "core.MixinGlDebug",
+    "core.MixinMinecraftClient",
+    "core.MixinTextureManager",
+    "core.MixinVertexConsumerProvider",
+    "core.MixinWindow",
+    "core.compat.MixinGameRenderer",
+    "core.compat.MixinTextRenderer_Drawer",
+    "disable_error_checking.MixinGL11",
+    "fast_buffer_upload.MixinVertexBuffer",
+    "fast_text_lookup.MixinFontManager",
+    "fast_text_lookup.MixinTextRenderer_Drawer",
+    "font_atlas_resizing.MixinGlyphAtlasTexture",
+    "hud_batching.MixinChatInputSuggestor",
+    "hud_batching.compat.armorchroma.MixinArmorChroma_GuiArmor",
+    "hud_batching.compat.highlighter.MixinHighlighter_Highlighter",
+    "hud_batching.compat.iceberg.MixinIceberg_GuiHelper",
+    "hud_batching.compat.itemborders.MixinItemBorders_ItemBorders",
+    "hud_batching.consumer.MixinDrawContext",
+    "map_atlas_generation.MixinMapRenderer",
+    "map_atlas_generation.MixinMapRenderer_MapTexture",
+    "screen_batching.MixinHandledScreen",
+    "sign_text_buffering.MixinSignBlockEntityRenderer",
+    "sign_text_buffering.MixinSignText"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
